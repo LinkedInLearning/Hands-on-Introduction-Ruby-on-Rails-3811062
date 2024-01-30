@@ -19,5 +19,11 @@
   "terminal.integrated.fontSize": 18,
   "workbench.colorTheme": "GitHub Dark Dimmed",
   "workbench.fontAliasing": "antialiased",
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "files.associations": {
+    "*.erb": "html"
+  },
+  "emmet.includeLanguages": {
+    "erb": "html"
+  }
 }
