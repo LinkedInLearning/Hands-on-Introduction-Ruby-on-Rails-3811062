@@ -1,4 +1,11 @@
 {
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "waitFor": "onCreateCommand",
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
+  "postAttachCommand": "git pull --all; exit",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -9,8 +16,13 @@
       ]
     }
   },
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
-  "postAttachCommand": "git pull --all"
-  // Update welcome text and set terminal prompt to '$ '
+  "portsAttributes": {
+    "3000": {
+      "label": "Application"
+    }
+  },
+  "forwardPorts": [
+    3000
+  ]
 }
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
