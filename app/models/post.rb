@@ -1,5 +1,7 @@
 class Post < ApplicationRecord
-  validates :description, presence: true
+  has_one_attached :image
+
+  validates :description, :image, presence: true
   validates :description, length: { minimum: 5 }
   validate :description_must_be_at_least_three_words
 
