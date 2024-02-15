@@ -3,6 +3,8 @@
 
   <%= render "form", post: @post %>
 
-  <%= link_to "Show this post", @post, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+  <div class="inline-block ml-2">
+    <%= button_to "Destroy this post" , post_path(@post), method: :delete, class: "mt-2 rounded-lg py-3 px-5 bg-red-700 text-white font-medium" %>
+  </div>
   <%= link_to "Back to posts", posts_path, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
 </div>
