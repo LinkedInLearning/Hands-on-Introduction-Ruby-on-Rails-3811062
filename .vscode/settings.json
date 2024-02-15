@@ -5,7 +5,7 @@
   "editor.fontLigatures": false,
   "editor.fontSize": 22,
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.lineNumbers": "on",
   "editor.matchBrackets": "always",
   "editor.minimap.enabled": false,
