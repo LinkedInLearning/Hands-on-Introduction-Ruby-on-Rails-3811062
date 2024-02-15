@@ -12,7 +12,11 @@
   <% end %>
 
   <div class="my-5">
-    <%= form.label :image %>
+    <% if post.image.attached? %>
+      <div class="mt-2">
+        <%= image_tag url_for(post.image) %>
+      </div>
+    <% end %>
     <%= form.file_field :image, class: "block py-2 mt-2" %>
   </div>
 

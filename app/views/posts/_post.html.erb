@@ -1,4 +1,6 @@
 <div id="<%= dom_id post %>">
+  <%= image_tag url_for(post.image) if post.image.attached? %>
+
   <p class="my-5">
     <%= post.description %>
   </p>
