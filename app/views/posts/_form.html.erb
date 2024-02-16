@@ -14,7 +14,7 @@
   <div class="my-5">
     <% if post.image.attached? %>
       <div class="mt-2">
-        <%= image_tag url_for(post.image) %>
+        <%= image_tag post.image.variant(resize_to_limit: [600, 600]) %>
       </div>
     <% end %>
     <%= form.file_field :image, class: "block py-2 mt-2" %>

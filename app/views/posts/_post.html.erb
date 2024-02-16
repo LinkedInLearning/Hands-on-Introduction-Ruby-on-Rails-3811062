@@ -1,5 +1,5 @@
 <div id="<%= dom_id post %>">
-  <%= image_tag url_for(post.image) if post.image.attached? %>
+  <%= image_tag post.image.variant(resize_to_limit: [600, 600]) if post.image.attached? %>
 
   <p class="my-5">
     <%= post.description %>
