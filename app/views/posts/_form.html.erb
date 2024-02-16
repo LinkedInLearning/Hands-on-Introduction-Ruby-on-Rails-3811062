@@ -17,7 +17,7 @@
         <%= image_tag post.image.variant(resize_to_limit: [600, 600]) %>
       </div>
     <% end %>
-    <%= form.file_field :image, class: "block py-2 mt-2" %>
+    <%= form.file_field :image, class: "block py-2 mt-2", accept: "image/*", capture: "environment" %>
   </div>
 
   <div class="my-5">
