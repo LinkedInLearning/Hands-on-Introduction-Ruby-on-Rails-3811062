@@ -1,4 +1,8 @@
 <div id="<%= dom_id post %>">
+  <p class="my-5 text-gray-600">
+    <%= post_created_at(post) %>
+  </p>
+
   <%= image_tag post.image.variant(resize_to_limit: [600, 600]) if post.image.attached? %>
 
   <p class="my-5">
