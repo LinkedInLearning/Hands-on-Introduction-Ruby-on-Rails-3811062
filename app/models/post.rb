@@ -5,6 +5,8 @@ class Post < ApplicationRecord
   validates :description, length: { minimum: 5 }
   validate :description_must_be_at_least_three_words
 
+  scope :ordered_by_most_recent, -> { order(id: :desc) }
+
   def description_must_be_at_least_three_words
     if description.split.length < 3
       errors.add(:description, "must be at least 3 words")
