@@ -1,0 +1,3 @@
+<%= turbo_stream.prepend "posts", @post %>
+<%= turbo_stream.update Post.new, "" %>
+<%= turbo_stream.replace "notice", partial: "layouts/notice" %>
