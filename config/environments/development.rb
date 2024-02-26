@@ -71,6 +71,7 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+  config.action_controller.forgery_protection_origin_check = false
 
   pf_domain = ENV['GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN']
   pf_host = "#{ENV['CODESPACE_NAME']}-3000.#{pf_domain}"
