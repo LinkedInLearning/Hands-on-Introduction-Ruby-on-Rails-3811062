@@ -1,6 +1,12 @@
 # Hands-on Introduction: Ruby on Rails
 This is the repository for the LinkedIn Learning course `Hands-on Introduction: Ruby on Rails`. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
+
+<p>In this course, David Morales, a web developer and technical instructor, gives you the tools and knowledge that you need to start developing with the Ruby on Rails web framework, using a GitHub Codespaces environment. Get an overview of the development environment, then create a simple application. Learn how to work with databases, migrations, routes, controllers, and the asset pipeline. Plus, go over image management with Active Storage, code reuse techniques, and using Hotwire to add reactivity without writing JavaScript.</p>
+
+<p>The best way to learn a language is to use it in practice. That’s why this course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time—all while using a tool that you’ll likely encounter in the workplace. Check out the “Using GitHub Codespaces with this course” video to learn how to get started.</p>
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -23,6 +29,6 @@ To resolve this issue:
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://github.com/LinkedInLearning/Hands-on-Introduction-Ruby-on-Rails-3811062
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/hands-on-introduction-ruby-on-rails/
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQGjRM4tu5LcBw/learning-public-crop_675_1200/0/1712264617028?e=2147483647&v=beta&t=QoaPCZDoD9Ed8hZQmTTyUt2jStnuaksf5nI95QSJWgI
 
