@@ -30,5 +30,5 @@ To resolve this issue:
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/hands-on-introduction-ruby-on-rails/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQGjRM4tu5LcBw/learning-public-crop_675_1200/0/1712264617028?e=2147483647&v=beta&t=QoaPCZDoD9Ed8hZQmTTyUt2jStnuaksf5nI95QSJWgI
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQHg7GA0u1mz-A/learning-public-crop_675_1200/0/1713291404144?e=2147483647&v=beta&t=guNiq3w_FfH3up7mNkJoQqsjvo1LQyQvfBmztvaoVpM
 
