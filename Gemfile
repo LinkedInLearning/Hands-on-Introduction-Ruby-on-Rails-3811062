@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-ruby "3.3.0"
+ruby "3.3.10"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.1.3"
+gem "rails", "~> 7.1.6"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
