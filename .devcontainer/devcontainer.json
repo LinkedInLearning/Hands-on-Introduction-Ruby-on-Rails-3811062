@@ -6,6 +6,7 @@
   "waitFor": "onCreateCommand",
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
   "postAttachCommand": "git pull --all; exit",
+  "postCreateCommand": "bundle install",
   "customizations": {
     "vscode": {
       "extensions": [
